@@ -653,4 +653,19 @@ Twitter: @rich_clark
   .another_category td {
     display: none;
   }
+
+  #timeBar {
+    margin: 0 16px;
+    width: 100%;
+    height: 1px;
+    position: relative;
+  }
+
+  #timeBar svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
   /*# sourceMappingURL=style.css.map */

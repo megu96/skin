@@ -100,3 +100,16 @@ $(function () {
         });
   })
 })
+
+
+var bar = new ProgressBar.Line(timeBar, {
+  strokeWidth: 4,
+  easing: 'linear',
+  duration: 139000,
+  color: '#6F5353',
+  trailColor: '#6F5353',
+  trailWidth: 1,
+  svgStyle: {width: '100%', height: '100%'}
+});
+
+bar.animate(1.0); 
